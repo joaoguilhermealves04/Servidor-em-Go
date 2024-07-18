@@ -32,7 +32,7 @@ func noteCreate(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "Criando uma nova Nota ....")
 }
 
-func main() {
+func mainservice() {
 	fmt.Print("Servidor Rodando na porta 8080")
 	mux := http.NewServeMux()
 
